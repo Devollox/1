@@ -11,7 +11,7 @@ import path from 'path'
 export const getStaticProps = async () => { await getPosts();await generateRssFeed();const data = {};
   return { props: { data }}
 }
-const About = () => {
+const Home = () => {
   Encoding(20, "effect")
   return (
     <Page
@@ -48,4 +48,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Home
